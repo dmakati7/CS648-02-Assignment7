@@ -18,14 +18,6 @@ Now Navigate to `http://localhost:8000/` to interact with the application.
 
 After starting Development Server using previous step, open `http://localhost:3000/graphql` to interact with the API using GraphQL Playground.
 
-## Compile Watch Mode
-
-Go to UI folder and run `npm run watch` to make babel watch for changes in files. Make any changes and the changes will be reflected without any refresh. Make sure you have started the server as per the previous step.
-
 ## MongoDB reset
 
-From Api folder, you can run `mongo "mongodb+srv://cluster.yxyis.mongodb.net/inventoryTracker" --username jainamcsheth scripts/init.mongo.js` and enter password as `jainamcsheth` to reset the database with two products added initially.
-
-## Lint check
-
-To check for lint issues, go to Api and Ui folder and run `npm run lint` to get the linting issues in the respective folders.
+From Api folder, you can run `mongo "mongodb+srv://cluster0.p5vkx.mongodb.net/myFirstDatabase" --username dmakati7 scripts/init.mongo.js` and enter password as `Abc123` to reset the database with two products added initially.
